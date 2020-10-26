@@ -1,0 +1,91 @@
+body {
+  background: rgb(19, 21, 22);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.insert-button {
+  margin: 15px;
+  width: 8%;
+  background: lightblue;
+  font: bold;
+  font-size: 80%;
+}
+
+.insert-button:hover {
+  margin: 15px;
+  width: 8%;
+  background: rgb(4, 131, 190);
+  font: bold;
+  font-size: 80%;
+}
+
+.todo-input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background: lightgray;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.container-splitter {
+  display: grid;
+  justify-content: center;
+  margin: 5%;
+  grid-template-columns: auto auto auto auto;
+}
+
+.container {
+  display: table;
+  margin: 0 300px;
+  border-spacing: 30px;
+  border: 10px solid lightblue;
+}
+
+.container-title, .title {
+  color: rgba(211, 211, 211, 0.883);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px; 
+  font-weight: 800; 
+  line-height: 48px; 
+  margin: 0 0 24px;
+  padding: 0 5px; 
+  text-align: center;
+  text-transform: uppercase; 
+}
+
+.line { 
+  border-top: 1px solid white;
+  display: block; margin-top: 60px;
+  padding-top: 50px; 
+  position: relative; 
+}

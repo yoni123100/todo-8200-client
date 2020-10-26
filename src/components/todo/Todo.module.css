@@ -1,0 +1,42 @@
+.todo {
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+}
+
+.finished {
+    text-decoration: line-through;
+}
+
+.finished:hover {
+    text-decoration: none;
+    color: #69db27;
+}
+
+.unfinished:hover {
+    text-decoration: line-through;
+    color: #ffcccb;
+} 
+
+.button:hover {
+    background-color: #ca3c37da;
+}
+
+.button {
+    background-color: #ca3c37b9;
+    color: white;
+    padding: 10px 5px;
+    margin: 35px 0 0 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40%;
+    opacity: 1;
+  }
